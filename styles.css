@@ -1,0 +1,111 @@
+:root {
+
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }  
+
+  html, body {
+    height: 100%;
+  }
+
+body {
+   background-color: #060606;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body, a {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/design.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position {
+    font-size: 2rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.nav-container {
+    margin: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.logo {
+    width: 300px;
+}
+
+.left-hero {
+ width: 100%;
+ height: 100%;
+ float: left;
+ opacity: 0.8;
+}
+
+.wave {
+    animation-name: wave-emoji;
+    animation-duration: 1.5s;
+    animation-iteration-count: infinite;
+    transform-origin: 70% 70%;
+    display: inline-block;
+}
+
+@keyframes wave-emoji {
+    0% {
+        transform: rotate(0deg);
+    }
+    15% {
+        transform: rotate(5deg);
+    }
+
+    30% {
+        transform: rotate(20deg);
+    }
+
+    40% {
+        transform: rotate(30deg);
+    }
+
+    50% {
+        transform: rotate(40deg);
+    }
+
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+
+    font-weight: 400;  
+    padding: 10px;
+    font-size: 1.3rem;
+    color: white;
+    margin: 10px;
+}
+
