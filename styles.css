@@ -33,13 +33,14 @@ body, a {
 }
 
 .position {
-    font-size: 2rem;
+    font-size: 3rem;
     padding: 20px;
     border-radius: 5px;
 }
 
 .nav-container {
-    margin: 25px;
+    margin: 25px 25px 35px 35px;
+    padding: 10px;
 }
 
 a {
