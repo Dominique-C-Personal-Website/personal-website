@@ -1,3 +1,7 @@
+:root {
+
+}
+
 *, *::before, *::after {
     box-sizing: border-box;
     padding: 0;
@@ -33,26 +37,28 @@ body, a {
 }
 
 .position {
-    font-size: 3rem;
+    font-size: 2rem;
     padding: 20px;
     border-radius: 5px;
 }
 
 .nav-container {
-    margin: 25px 0;
-    padding: 10px;
+    margin: 25px;
 }
 
 a {
     text-decoration: none;
 }
 
-p {
-    text-shadow: 5px 5px 15px #f58080;
+.logo {
+    width: 300px;
 }
 
-.logo {
-    width: 550px;
+.left-hero {
+ width: 100%;
+ height: 100%;
+ float: left;
+ opacity: 0.8;
 }
 
 .wave {
@@ -98,13 +104,8 @@ li {
 
     font-weight: 400;  
     padding: 10px;
-    font-size: 1.7rem;
-    color: rgb(255, 255, 255);
+    font-size: 1.3rem;
+    color: white;
     margin: 10px;
 }
 
-li:hover {
-    border-radius: 10%;
-    background-color: #C77C86;
-    color: rgb(165, 10, 10); 
-}
