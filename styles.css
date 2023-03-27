@@ -52,7 +52,7 @@ p {
 }
 
 .logo {
-    width: 300px;
+    width: 500px;
 }
 
 .wave {
@@ -98,7 +98,7 @@ li {
 
     font-weight: 400;  
     padding: 10px;
-    font-size: 1.3rem;
+    font-size: 1.7rem;
     color: rgb(255, 255, 255);
     margin: 10px;
 }
