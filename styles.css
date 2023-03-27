@@ -101,11 +101,12 @@ li {
     font-weight: 400;  
     padding: 10px;
     font-size: 1.3rem;
-    color: white;
+    color: rgb(255, 255, 255);
     margin: 10px;
 }
 
 li:hover {
     border-radius: 10%;
-    border: 1px solid #C77C86;
+    background-color: #C77C86;
+    color: rgb(165, 10, 10); 
 }
