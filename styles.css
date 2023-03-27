@@ -46,6 +46,10 @@ a {
     text-decoration: none;
 }
 
+p {
+    text-shadow: 5px 5px 15px #f58080;
+}
+
 .logo {
     width: 300px;
 }
