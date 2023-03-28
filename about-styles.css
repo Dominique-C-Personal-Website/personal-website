@@ -1,0 +1,82 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+  }  
+
+  html, body {
+    height: 100%;
+  }
+
+body {
+   background-color: #060606;
+    font-family: 'Raleway', sans-serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+body, a {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    height: 100%;
+    text-align: center;
+    width: 100%;
+    background-size: cover;
+    background-image: url(images/design.png);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.position {
+    font-size: 3rem;
+    padding: 20px;
+    border-radius: 5px;
+}
+
+.nav-container {
+    margin: 25px 25px 35px 35px;
+    padding: 10px;
+}
+
+a {
+    text-decoration: none;
+}
+
+p {
+    text-shadow: 5px 5px 15px #f58080;
+}
+
+.logo {
+    width: 300px;
+}
+
+.profile {
+    width: 300px;
+    float: right;
+}
+
+nav ul {
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+li {
+
+    font-weight: 400;  
+    padding: 10px;
+    font-size: 1.3rem;
+    color: rgb(255, 255, 255);
+    margin: 10px;
+}
+
+li:hover {
+    border-radius: 10%;
+    background-color: #C77C86;
+    color: rgb(165, 10, 10); 
+}
