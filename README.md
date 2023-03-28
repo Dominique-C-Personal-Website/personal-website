@@ -1,4 +1,4 @@
-### Dominique's Personal Website 
+## Dominique's Personal Website 
 
 My personal website created with the purpose of sharing my progress in web development.
 
