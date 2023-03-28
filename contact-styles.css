@@ -96,9 +96,3 @@ li {
     color: rgb(255, 255, 255);
     margin: 10px;
 }
-
-li:hover {
-    border-radius: 10%;
-    background-color: #C77C86;
-    color: rgb(165, 10, 10); 
-}
