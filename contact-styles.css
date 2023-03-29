@@ -81,11 +81,13 @@ p {
     border: 1px solid rgb(0, 0, 0);
 }
 
+ul {
+    list-style: none;
+}
 
 nav ul {
     display: flex;
     align-items: center;
-    list-style: none;
 }
 
 li {
@@ -97,8 +99,37 @@ li {
     margin: 10px;
 }
 
-li:hover {
-    border-radius: 10%;
-    background-color: #C77C86;
-    color: rgb(165, 10, 10); 
+form {
+    text-align: center;
+}
+
+label {
+    display: inline-block;
+    width: 100px;
+}
+
+input,
+textarea {
+    font-family: inherit;
+    width: 250px;
+    border: none;
+    border-radius: 2px;
+}
+
+textarea {
+    vertical-align: top;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    padding: 10px;
+    border: none;
+    width: 150px;
+    border-radius: 5px;
+    background-color: #222222;
+    color: white;
 }
