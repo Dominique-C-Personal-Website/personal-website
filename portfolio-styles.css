@@ -19,6 +19,7 @@ body {
 
 body, a {
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .container {
@@ -72,8 +73,12 @@ h1 {
     width: 300px;
 }
 
-a {
-    text-decoration: none;
+.repo {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    background-color: rgb(255, 213, 231);
+    text-align: center;
+    border-radius: 3px;
 }
 
 p {
