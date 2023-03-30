@@ -22,10 +22,14 @@ body, a {
 }
 
 .container {
+    display: flex;
+    flex-direction: column;
     height: 100%;
     width: 100%;
     background-size: cover;
     background-image: url(images/design.png);
+    justify-content: space-evenly;
+    align-items: center;
 }
 
 .h1 {
@@ -41,8 +45,13 @@ h1 {
 }
 
 .nav-container {
-    margin: 25px 25px 35px 35px;
+    display: flex;
+    justify-content: center;
+    background-color: #060606;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .profile-container {
