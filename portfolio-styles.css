@@ -66,16 +66,12 @@ h1 {
     line-height: 1.5;
 }
 
-.project-1, .project-2 {
+.project {
     border-radius: 5px;
     object-fit: contain;
     height: 250px;
     border: 1px solid black;
     width: 400px;
-}
-
-.project-2 {
-    object-fit: contain;
 }
 
 a {
