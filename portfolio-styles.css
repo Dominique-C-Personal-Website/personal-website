@@ -22,26 +22,30 @@ body, a {
 }
 
 .container {
-    height: 100%;
     width: 100%;
     background-size: cover;
     background-image: url(images/design.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
-.h1 {
-    display: flex;
-    justify-content: center;
-}
 h1 {
-    margin-top: 25px;
+    margin-top: 120px;
     font-size: 2.5rem;
     border-bottom: 2px solid rgb(49, 49, 49);
     display: inline-block;
-
+    text-align: center;
 }
 
 .nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: #060606;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .project-container {
@@ -62,15 +66,15 @@ h1 {
 }
 
 .project-1, .project-2 {
-    width: 350px;
     border-radius: 5px;
     object-fit: contain;
-    height: 260px;
+    height: 250px;
     border: 1px solid black;
+    width: 400px;
 }
 
 .project-2 {
-    object-fit:fill;
+    object-fit: contain;
 }
 
 a {
