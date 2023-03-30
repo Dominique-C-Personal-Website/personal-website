@@ -19,34 +19,40 @@ body {
 
 body, a {
     color: rgb(255, 255, 255);
+    text-decoration: none;
 }
 
 .container {
-    height: 100%;
     width: 100%;
     background-size: cover;
     background-image: url(images/design.png);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
 }
 
-.h1 {
-    display: flex;
-    justify-content: center;
-}
 h1 {
-    margin-top: 25px;
+    margin-top: 150px;
     font-size: 2.5rem;
     border-bottom: 2px solid rgb(49, 49, 49);
     display: inline-block;
-
+    text-align: center;
 }
 
 .nav-container {
+    display: flex;
+    justify-content: center;
+    background-color: #060606;
     padding: 10px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 .project-container {
     display: flex;
-    width: 70%;
+    width: 50%;
     align-items: center;
     justify-content: center;
     gap: 10px;
@@ -61,20 +67,18 @@ h1 {
     line-height: 1.5;
 }
 
-.project-1, .project-2 {
-    width: 350px;
+.project {
     border-radius: 5px;
     object-fit: contain;
-    height: 260px;
-    border: 1px solid black;
+    width: 300px;
 }
 
-.project-2 {
-    object-fit:fill;
-}
-
-a {
-    text-decoration: none;
+.repo {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+    background-color: rgb(255, 213, 231);
+    text-align: center;
+    border-radius: 3px;
 }
 
 p {
