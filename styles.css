@@ -7,7 +7,7 @@
   body {
     font-family: 'Ubuntu', sans-serif;
     height: 100vh;
-    justify-content: center;
+    color: rgb(255, 255, 255); 
     background: linear-gradient(
       to  top right,
       #0b2545 0%,
@@ -15,7 +15,6 @@
         #bc4b51 80%,
         #bc4b51 100%
     );
-    color: rgb(255, 255, 255); 
   }
 
   /* NAV */ 
@@ -49,6 +48,15 @@
   list-style: none;
   margin-right: 20px;
 }
+
+/* HOVER */
+
+.nav-list a:hover {
+  color: #0A2545;
+  border-bottom: 1px solid #3B2F48;
+  transition: 0.3s;
+}
+
 
 /* MAIN */
 
@@ -87,19 +95,20 @@
   letter-spacing: 1px;
 }
 
-.contact {
+/* FOOTER SIDEBAR */
 
+footer .footer-links {
+ border-top: 3px solid white;
+ background-color: black;
+ display: flex;
+  height: 150px;
 }
-
-/* SM SIDEBAR */
-
-aside {
-  border: 1px solid blue;
-  float: left;
-  
+.footer-links .footer li {
+  background-color: rgb(255, 255, 255);
+  width: 100px;
 }
-
-ul {
-  display: flex;
-
+.bx {
+  font-size: 3rem;
+  color:#0b2545;
+  border: 2px solid red;
 }
