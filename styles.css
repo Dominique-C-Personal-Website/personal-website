@@ -30,8 +30,8 @@
 
 .nav-list {
   display: flex;
+  align-items: center;
 }
-
 
 .nav-list a {
   text-decoration: none;
@@ -49,12 +49,21 @@
   margin-right: 20px;
 }
 
+.nav-list .bx {
+  font-size: 2rem;
+  color: #0b2545
+}
+
 /* HOVER */
 
 .nav-list a:hover {
   color: #0A2545;
   border-bottom: 1px solid #3B2F48;
   transition: 0.3s;
+}
+
+.logo {
+  width: 100px;
 }
 
 
@@ -86,29 +95,11 @@
   color:rgb(255, 255, 255);
 }
 
-.intro li {
+.intro .contact {
   list-style: none;
   background-color: #bc4b51;
   padding: 15px 55px;
   border-radius: 5px;
   font-size: 1.2rem;
   letter-spacing: 1px;
-}
-
-/* FOOTER SIDEBAR */
-
-footer .footer-links {
- border-top: 3px solid white;
- background-color: black;
- display: flex;
-  height: 150px;
-}
-.footer-links .footer li {
-  background-color: rgb(255, 255, 255);
-  width: 100px;
-}
-.bx {
-  font-size: 3rem;
-  color:#0b2545;
-  border: 2px solid red;
 }
