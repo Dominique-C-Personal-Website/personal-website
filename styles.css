@@ -132,7 +132,7 @@
   align-items: center;
   width: 100%;
   gap: 10px;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 #about-section {
@@ -146,18 +146,21 @@
 #about-section p {
   margin-top: 15px;
   padding: 10px;
-  overflow: hidden;
+  background-color: #0b2545;
+  border-radius: 5px;
 
 }
 
 #about-me {
-  font-size: 3rem;
-  width: 100%;
+  font-size: 3.5rem;
   text-align: center;
+  width: 100%;
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 .dc-img {
   width: 400px;
   float: right;
-  border-radius: 50px;
+  
 }
