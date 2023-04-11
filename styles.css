@@ -237,4 +237,75 @@
 .image-description {
   font-size: 1.1rem;
   margin-top: 15px;
+  text-align: center;
+}
+
+/* CONTACT */
+
+.contact-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+  background-color:#021123;
+  margin: 80px auto;
+  border-radius: 10px;
+ 
+ 
+}
+
+form {
+  padding: 20px;
+  text-align: center;
+
+
+}
+
+form ul {
+  list-style: none;
+  text-transform: uppercase;
+  letter-spacing: 1.2px;
+}
+
+form li {
+  margin: 10px;
+  
+}
+
+.first_last, .email_phone{
+  display: inline-flex;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+}
+
+input {
+outline: none;
+height: 30px;
+width: 200px;
+font-size: 1rem;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+}
+
+textarea {
+  width: 420px;
+}
+
+button {
+  margin-top: 10px;
+  padding: 15px 50px;
+  border: none;
+  font-size: 1rem;
+  border-radius: 5px;
+  background-color: #bc4b51;
+  color:rgb(255, 255, 255);
+  font-weight: 700;
+  text-transform: uppercase;
 }
