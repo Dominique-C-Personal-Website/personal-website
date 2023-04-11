@@ -69,7 +69,7 @@
 }
 
 
-/* HOVER */
+/* NAV HOVER */
 
 .nav-list a:hover {
   color: #0A2545;
@@ -322,6 +322,14 @@ button {
   color:rgb(255, 255, 255);
   font-weight: 700;
   text-transform: uppercase;
+  cursor: pointer;
+}
+
+/* CONTACT HOVER */
+
+button:hover {
+  background-color: #D38487;
+  transition: 0.3s;
 }
 
 /* FORM SUBMISSION PAGE */
