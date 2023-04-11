@@ -309,3 +309,24 @@ button {
   font-weight: 700;
   text-transform: uppercase;
 }
+
+/* FORM SUBMISSION PAGE */
+
+.submit {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  height: 50vh;
+  margin-top: 80px;
+}
+
+.submit-thanks {
+  font-size: 4rem;
+  margin-bottom: 20px;
+}
+
+.submit-contact {
+  font-weight: 400;
+}
