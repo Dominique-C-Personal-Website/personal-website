@@ -295,6 +295,7 @@ input::-webkit-inner-spin-button {
 
 textarea {
   width: 420px;
+  resize: none;
 }
 
 button {
