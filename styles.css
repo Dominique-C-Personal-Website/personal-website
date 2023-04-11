@@ -170,13 +170,12 @@
 
 #portfolio-container {
   display: flex;
-  flex-direction: column;
+  justify-content: center;
   align-items: center;
   gap: 10px;
   margin-top: 80px;
   gap: 20px;
   padding: 10px;
-
 }
 
 #portfolio-imgs {
@@ -184,18 +183,26 @@
   justify-content: center;
   font-size: 1.2rem;
   font-weight: 300;
-  background-color: #021123;
   border-radius: 10px;
-  padding: 20px;
   position: relative;
-  width: 600px;
-  
 } 
+
+#portfolio-h1 {
+  display: inline-flex;
+  padding: 10px;
+  margin-top: 20px;
+  font-size: 1.5rem;
+}
+
+.learn-more {
+  text-align: center;
+ 
+}
 
 .project-1, .project-2 {
   width: 450px;
   border-radius: 10px;
-  margin: 10px;
+  border: 1px solid transparent;
   display: block;
 }
 
@@ -237,6 +244,13 @@
   font-size: 1.1rem;
   margin-top: 15px;
   text-align: center;
+}
+
+.tools {
+  display: flex;
+  list-style: none;
+  gap: 10px;
+  margin-top: 15px;
 }
 
 /* CONTACT */
