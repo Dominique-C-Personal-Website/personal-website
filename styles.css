@@ -244,6 +244,7 @@
   font-size: 1.1rem;
   margin-top: 15px;
   text-align: center;
+  width: 400px;
 }
 
 .tools {
@@ -251,6 +252,14 @@
   list-style: none;
   gap: 10px;
   margin-top: 15px;
+}
+
+.tools li {
+  background-color: rgb(255, 255, 255);
+  color: rgba(0, 0, 0, 0.8);
+  margin-right: 5px;
+  padding: 5px 10px;
+  border-radius: 10px;
 }
 
 /* CONTACT */
@@ -351,4 +360,29 @@ button:hover {
 
 .submit-contact {
   font-weight: 400;
+}
+
+/* MEDIA QUERIES */
+
+@media (max-width: 500px) {
+  .nav-bar, .nav-list {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.5;
+  }
+
+  .intro {
+    display: flex;
+  }
+  .intro h1 {
+    font-size: 3.2rem;
+  }
+  .intro h2 {
+    font-size: 1.3rem;
+  }
+
+  #portfolio-container {
+    display: flex;
+    flex-direction: column;
+  }
 }
