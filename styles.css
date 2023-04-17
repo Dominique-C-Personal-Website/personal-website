@@ -61,7 +61,7 @@
 
 .nav-list .bx {
   font-size: 2rem;
-  color: #0b2545
+  color: #071424;
 }
 
 .logo {
@@ -365,12 +365,23 @@ button:hover {
 
 /* MEDIA QUERIES */
 
-@media (max-width: 500px) {
+@media (min-width: 651px) and (max-width: 815px) {
+  .nav-bar {
+    margin: 0 10px;
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 700px) {
   .nav-bar, .nav-list {
     display: flex;
     flex-direction: column;
-    line-height: 1.5;
-    
+  }
+
+  .nav-list li {
+    margin: 5px;
+    padding: 3px 0;
   }
 
   .intro {
