@@ -275,15 +275,13 @@
   background-color:#021123;
   margin: 80px auto;
   border-radius: 10px;
- 
- 
+  max-width: 100%;
+  width: 550px;
 }
 
 form {
   padding: 20px;
   text-align: center;
-
-
 }
 
 form ul {
@@ -294,7 +292,6 @@ form ul {
 
 form li {
   margin: 10px;
-  
 }
 
 .first_last, .email_phone{
