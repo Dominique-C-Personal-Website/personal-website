@@ -9,7 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap" rel="stylesheet">    
     <link rel="stylesheet" href="styles.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
     <script defer src="javascript.js"></script>
 </head>
 
@@ -19,9 +19,9 @@
         <img src="images/DC.svg" class="logo" alt="Dominique Castro Logo">
         <ul class="nav-list">
             <li class="li-item"><a href="index.html">Home</a></li>
-            <li class="li-item"><a href="about.html">About</a></li>
-            <li class="li-item"><a href="portfolio.html">Portfolio</a></li>
-            <li class="li-item"><a href="contact.html">Contact</a></li>
+            <li class="li-item"><a href="#about">About</a></li>
+            <li class="li-item"><a href="#portfolio">Portfolio</a></li>
+            <li class="li-item"><a href="#contact">Contact</a></li>
             <li class="li-item"><a href="https://github.com/dominiquemc"><i class='bx bxl-github'></i></a></li>
             <li class="li-item"><a href="https://www.linkedin.com/in/dominique-c-75310510a"><i class='bx bxl-linkedin'></i></a></li>
         </ul>
@@ -30,10 +30,117 @@
 <!-- Main -->
 
 <main class="intro">
-    <h1>Hi, I'm Dominique</h1>
+    <h1>Hi, I'm <span>Dominique</span></h1>
     <h2>A web developer with a focus on Frontend Development</h2>
     <a href="contact.html" class="contact">Get in Touch</a>
 </main>
 
+<!-- About -->
+
+    <section id="about">
+        <div id="about-container">
+            <h2 id="about-me">About Me</h2>
+            <div id="about-section">
+                <img src="images/DC-about.svg" class="dc-img" alt="Dominique Castro Profile Picture">
+                <p>My name is Dominique and I am a Web Development Student based out of the US. I enjoy the creativity and logic that goes into making presentable, user-friendly websites and applications.</p>
+                <p>I started teaching myself how to code in 2020. As of 2023, I am a current student at Fullstack Academy's Web Development Program. I am excited about increasing my knowledge and skills in order to become a successful web developer. </p>
+            </div>
+
+            <section id="skills">
+                <h2 id="my-skills">Skills</h2>
+                <div class="skill-icons">
+                    <div class="single-icons">
+                <i class='bx bxl-html5'></i>
+                <p>HTML</p>
+            </div>
+            <div class="single-icons">
+                <i class='bx bxl-css3' ></i>
+                <p>CSS</p>
+            </div>
+        </div>
+            </section>
+    </section>
+
+
+    <!-- Portfolio -->
+
+    <section id="portfolio">
+        <h2 id="portfolio-h1">Portfolio</h2>
+    <div id="portfolio-container">
+    
+    <div class="portfolio-imgs">
+        <img class="project-1" src="images/project1.svg" alt="My Gabrielle Essence Eau De Parfum Project from Frontend Mentor">
+        <div class="image-overlay">
+            <div class="image-overlay-title">Product Preview Card</div>
+            <p class="image-description">
+                A responsive product preview card created with Flexbox for mobile, and Grid for Desktop.
+            </p>
+            <ul class="tools">
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+    </div>
+    
+    </div>
+    <div class="portfolio-imgs">
+        <img class="project-2" src="images/project2.svg" alt="My Gabrielle Essence Eau De Parfum Project from Frontend Mentor">
+        <div class="image-overlay">
+            <div class="image-overlay-title">Single Price Grid</div>
+            <p class="image-description">
+                A responsive product preview card created with Flexbox for mobile, and Grid for Desktop
+            </p>
+            <ul class="tools">
+                <li>HTML</li>
+                <li>CSS</li>
+            </ul>
+    </div>
+    </div>
+</div>
+</section>
+    <!-- CONTACT -->
+
+    <section id="contact">
+        <div class="h1">
+       <h2>Let's Connect!</h2>
+    </div>
+    
+    <form action="/submit.html" method="GET">
+        <ul class="form-ul">
+            <div class="first_last">
+            <li>
+                <label for="first-name">First Name: </label>
+                <input type="text" id="first-name" name="first-name" required>
+            </li>
+    
+            <li>
+                <label for="last-name">Last Name: </label>
+                <input type="text" id="last-name" name="last-name" required>
+            </li>
+        </div>
+            <br>
+        <div class="email_phone">
+            <li>
+                <label for="email">Email: </label>
+                <input type="email" id="email" name="email" required>
+            </li>
+    
+            <li>
+                <label for="phone">Phone: </label>
+                <input type="number" id="phone" name="phone">
+            </li>
+    
+        </div>
+            <li>
+                <label for="message">Message: </label>
+                <textarea name="message" id="message" cols="30" rows="10" required></textarea>
+            </li>
+    
+            <li class="button">
+                <button type="submit">Submit</button>
+            </li>
+       
+        </ul>
+    </form>
+</section>
 </body>
 </html>
