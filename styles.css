@@ -12,25 +12,34 @@
   body {
     display: flex;
     flex-direction: column;
-    font-family: 'Ubuntu', sans-serif;
+    /* font-family: 'Ubuntu', sans-serif; */
+    font-family: 'Playfair Display', serif;
     color: rgb(255, 255, 255);
-    /* background: linear-gradient(
-      to  top right,
-      #0b2545 0%,
-        #0b2545 60%,
-        #bc4b51 80%,
-        #bc4b51 100%
-    ); */
+    /* background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #0f0c29, #302b63, #24243e); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    /* background: linear-gradient(
-      to left,
-      #0b2545 0%,
-        #0b2545 50%,
-        #e86c9e 70%,
-        #e86c9e 100%
-    );   */
+    /* background: -webkit-linear-gradient(to left, #c33764, #1d2671); Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to left, #c33764, #1d2671); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-    background-image: linear-gradient(to left, #062448, #0b316d, #283c91, #4d44b4, #7947d3);
+    /* background: #16BFFD;  /* fallback for old browsers */
+    /* background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
+    /* background: linear-gradient(to right, #CB3066, #16BFFD); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
+
+     background: #360033;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to left, #0A2545, #2c002a);  
+background: linear-gradient(to left, #0A2545, #2c002a); 
+
+/* background: #00416A;  fallback for old browsers */
+/* background: -webkit-linear-gradient(to left, #E4E5E6, #00416A);  Chrome 10-25, Safari 5.1-6 */
+/* background: linear-gradient(to left, #E4E5E6, #00416A); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+
+    
+    
+
+
+
   }
 
   /* NAV */ 
@@ -102,14 +111,15 @@
   align-items: center;
   flex-direction: column;
   justify-content: center;
-  height: 75vh;
+  height: 70vh;
   width: 100%;
   text-align: center;
 }
 
 .intro h1 {
   font-size: 6rem;
-  text-shadow: 4px 1px 2px #071a30;
+  text-shadow: 2px 1px 1px #000000;
+
 }
 
 .intro h2 {
@@ -127,7 +137,7 @@
 
 .intro .contact {
   list-style: none;
-  background-color: #bc4b51;
+  background-color: #1e416d;
   padding: 25px 55px;
   border-radius: 5px;
   font-size: 1.4rem;
@@ -135,10 +145,27 @@
 }
 
 .intro span {
-  position: relative;
-  border-bottom: 2px solid #bc4b51;;
+  padding-bottom: 10px;
+  font-style: italic;
+  
 }
 
+
+/* MAIN DOWN ARROW */
+
+.main-down-arrow {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  animation: downarrow 3s infinite;
+}
+
+@keyframes downarrow {
+  0% {opacity: 0;}
+  20% {opacity: 1;}
+  40% {opacity: 1;}
+  100% {opacity: 0;}
+}
 /* ABOUT */
 
 #about {
@@ -184,7 +211,7 @@
   letter-spacing: 2px;
   padding-left: 10px;
   margin-top: 10px;
-  border-bottom: 2px solid #bc4b51;
+  border-bottom: 3px solid #1e416d;
   display: inline-block;
 }
 
@@ -198,7 +225,6 @@
 #skills {
   max-width: 100%;
   width: 100%;
-
   padding: 50px 0 50px 0;
 }
 
