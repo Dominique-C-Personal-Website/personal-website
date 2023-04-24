@@ -10,35 +10,14 @@
   }
 
   body {
-    display: flex;
-    flex-direction: column;
-    /* font-family: 'Ubuntu', sans-serif; */
-    font-family: 'Playfair Display', serif;
-    color: rgb(255, 255, 255);
-    /* background: -webkit-linear-gradient(to right, #0f0c29, #302b63, #24243e); /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #0f0c29, #302b63, #24243e); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    /* background: -webkit-linear-gradient(to left, #c33764, #1d2671); Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to left, #c33764, #1d2671); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-    /* background: #16BFFD;  /* fallback for old browsers */
-    /* background: -webkit-linear-gradient(to right, #CB3066, #16BFFD);  /* Chrome 10-25, Safari 5.1-6 */
-    /* background: linear-gradient(to right, #CB3066, #16BFFD); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ 
-
+     display: flex;
+     flex-direction: column;
+     font-family: 'Playfair Display', serif;
+     color: rgb(255, 255, 255);
      background: #360033;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to left, #0A2545, #2c002a);  
-background: linear-gradient(to left, #0A2545, #2c002a); 
-
-/* background: #00416A;  fallback for old browsers */
-/* background: -webkit-linear-gradient(to left, #E4E5E6, #00416A);  Chrome 10-25, Safari 5.1-6 */
-/* background: linear-gradient(to left, #E4E5E6, #00416A); W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
-
-
-    
-    
-
-
+     background: -webkit-linear-gradient(to left, #0A2545, #2c002a);  
+     background: linear-gradient(to left, #0A2545, #2c002a); 
+     font-smooth: smooth;
 
   }
 
@@ -79,7 +58,7 @@ background: linear-gradient(to left, #0A2545, #2c002a);
 
 .nav-list .bx {
   font-size: 2rem;
-  color: #071424;
+  color: #6b3068;
 }
 
 .logo {
@@ -90,7 +69,7 @@ background: linear-gradient(to left, #0A2545, #2c002a);
 /* NAV HOVER */
 
 .nav-list a:hover {
-  color: #0A2545;
+  color: #6b3068;
   border-bottom: 1px solid #3B2F48;
 }
 
@@ -146,8 +125,7 @@ background: linear-gradient(to left, #0A2545, #2c002a);
 
 .intro span {
   padding-bottom: 10px;
-  font-style: italic;
-  
+  font-style: italic; 
 }
 
 
@@ -429,6 +407,21 @@ button:hover {
 
 .submit-contact {
   font-weight: 400;
+}
+
+/* FOOTER */
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: transparent;
+  padding: 40px;
+}
+
+footer p {
+  text-transform: uppercase;
+  letter-spacing: 2px;
 }
 
 /* MEDIA QUERIES */
